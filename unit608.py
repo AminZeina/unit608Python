@@ -8,7 +8,7 @@ answer = 0
 number_a = int(input('Enter your first number: '))
 number_b = int(input('Enter your second number: '))
 
-for i in range(0,number_b):
+for timesAdded in range(0,number_b):
 	answer = answer + number_a
 
 print('Your answer is {}' .format(answer))
